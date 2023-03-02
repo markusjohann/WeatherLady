@@ -1,2 +1,0 @@
-Create the Pair class which, based on generic types, will allow to store any pair
-of objects.
