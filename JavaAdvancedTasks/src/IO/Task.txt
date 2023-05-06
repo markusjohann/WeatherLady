@@ -1,1 +1,0 @@
-Prepare a solution which will read and display a file line by line
