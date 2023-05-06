@@ -1,4 +1,4 @@
-package org.example;
+package Connection;
 
 import jakarta.persistence.*;
 
