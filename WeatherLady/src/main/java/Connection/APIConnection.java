@@ -15,6 +15,7 @@ import java.sql.Statement;
 import java.util.Map;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Scanner;
 
 public class APIConnection {
 
@@ -44,10 +45,10 @@ public class APIConnection {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
-
+        
         String urltest = "jdbc:mysql://localhost/weatherlady";
-        String username = "root";
-        String password = "1234";
+        String username = "password";
+        String password = "user";
 
         System.out.println("Connecting to the database...");
 
